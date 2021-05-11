@@ -538,10 +538,10 @@
       
         
           
-            <h2 id="OAuth-2-0授权认证框架"><a href="#OAuth-2-0授权认证框架" class="headerlink" title="OAuth 2.0授权认证框架"></a>OAuth 2.0授权认证框架</h2><p>OAuth 2.0是一种开放标准，可以在用户不提供用户名和密码的情况下，让第三方拿到用户信息。</p>
-<h3 id="主要角色"><a href="#主要角色" class="headerlink" title="主要角色"></a>主要角色</h3><p><img src="https://i.loli.net/2021/05/11/OhXWfyxCeiQjnvA.png"></p>
-<p>资源拥有者（resource owner）：授权第三方使用资源的实体，通常指终端用户。<br>客户端（client）：通过资源拥有者的授权获取令牌，再使用令牌向资源服务器请求资源。<br>授权服务器（authotization server）：确认用户授权后，向客户端发送令牌。<br>资源服务器（resource server）：持有资源，响应带有aceess token的资源请求.  </p>
-
+            <h2 id="OAuth-2-0授权认证框架"><a href="#OAuth-2-0授权认证框架" class="headerlink" title="OAuth 2.0授权认证框架"></a>OAuth 2.0授权认证框架</h2><p>OAuth 2.0是一种开放标准的授权认证方案，允许第三方拿到用户信息，而无需向其提供用户名和密码。<br>参考：<a target="_blank" rel="noopener" href="https://datatracker.ietf.org/doc/html/rfc6749#page-58">rfc6749</a></p>
+<h3 id="主要角色"><a href="#主要角色" class="headerlink" title="主要角色"></a>主要角色</h3><p><img src="https://raw.githubusercontent.com/goodCircle/image/main/roles.jpg"></p>
+<p>资源拥有者（resource owner）：授权第三方使用资源的实体，通常指终端用户。<br>客户端（client）：通过资源拥有者的授权获取令牌，再使用该令牌向资源服务器请求资源。<br>授权服务器（authotization server）：确认用户授权后，向客户端发送令牌。<br>资源服务器（resource server）：持有资源，响应带有aceess token的资源请求.  </p>
+<h3 id="认证流程"><a href="#认证流程" class="headerlink" title="认证流程"></a>认证流程</h3><h3 id="四种授权方式"><a href="#四种授权方式" class="headerlink" title="四种授权方式"></a>四种授权方式</h3><h4 id="1-授权码模式"><a href="#1-授权码模式" class="headerlink" title="1. 授权码模式"></a>1. 授权码模式</h4><h4 id="2-简化模式"><a href="#2-简化模式" class="headerlink" title="2. 简化模式"></a>2. 简化模式</h4><h4 id="3-密码模式"><a href="#3-密码模式" class="headerlink" title="3. 密码模式"></a>3. 密码模式</h4><h4 id="4-客户端模式"><a href="#4-客户端模式" class="headerlink" title="4. 客户端模式"></a>4. 客户端模式</h4><h3 id="令牌更新"><a href="#令牌更新" class="headerlink" title="令牌更新"></a>令牌更新</h3>
           
         
       
