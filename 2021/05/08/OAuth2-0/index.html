@@ -79,16 +79,16 @@
 
 
 
-<meta name="description" content="OAuth 2.0授权认证框架OAuth 2.0是一种开放标准的授权认证方案，允许第三方拿到用户信息，而无需向其提供用户名和密码。参考：rfc6749 主要角色 资源拥有者（resource owner）：授权第三方使用资源的实体，通常指终端用户。客户端（client）：通过资源拥有者的授权获取令牌，再使用该令牌向资源服务器请求资源。授权服务器（authotization server）：确认用户">
+<meta name="description" content="OAuth 2.0是一种开放标准的授权认证方案，允许第三方拿到用户信息，而无需向其提供用户名和密码。参考：rfc6749 主要角色 资源拥有者（resource owner）：授权第三方使用资源的实体，通常指终端用户。客户端（client）：通过资源拥有者的授权获取令牌，再使用该令牌向资源服务器请求资源。授权服务器（authotization server）：确认用户授权后，向客户端发送令牌。资源">
 <meta property="og:type" content="article">
-<meta property="og:title" content="OAuth2.0">
+<meta property="og:title" content="OAuth 2.0授权认证框架">
 <meta property="og:url" content="https://goodcircle.github.io/2021/05/08/OAuth2-0/index.html">
 <meta property="og:site_name" content="学习不喝酒 人生路难走">
-<meta property="og:description" content="OAuth 2.0授权认证框架OAuth 2.0是一种开放标准的授权认证方案，允许第三方拿到用户信息，而无需向其提供用户名和密码。参考：rfc6749 主要角色 资源拥有者（resource owner）：授权第三方使用资源的实体，通常指终端用户。客户端（client）：通过资源拥有者的授权获取令牌，再使用该令牌向资源服务器请求资源。授权服务器（authotization server）：确认用户">
+<meta property="og:description" content="OAuth 2.0是一种开放标准的授权认证方案，允许第三方拿到用户信息，而无需向其提供用户名和密码。参考：rfc6749 主要角色 资源拥有者（resource owner）：授权第三方使用资源的实体，通常指终端用户。客户端（client）：通过资源拥有者的授权获取令牌，再使用该令牌向资源服务器请求资源。授权服务器（authotization server）：确认用户授权后，向客户端发送令牌。资源">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://raw.githubusercontent.com/goodCircle/image/main/roles.jpg">
 <meta property="article:published_time" content="2021-05-08T08:57:33.000Z">
-<meta property="article:modified_time" content="2021-05-11T10:09:20.143Z">
+<meta property="article:modified_time" content="2021-05-11T10:11:55.636Z">
 <meta property="article:author" content="goodCircle">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/goodCircle/image/main/roles.jpg">
@@ -127,7 +127,7 @@
 
 
 
-  <title>OAuth2.0 | 学习不喝酒 人生路难走</title>
+  <title>OAuth 2.0授权认证框架 | 学习不喝酒 人生路难走</title>
   
 
 
@@ -251,7 +251,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">OAuth2.0</h1>
+          <h1 class="post-title" itemprop="name headline">OAuth 2.0授权认证框架</h1>
         
 
         <div class="post-meta">
@@ -301,10 +301,10 @@
       
 
       
-        <h2 id="OAuth-2-0授权认证框架"><a href="#OAuth-2-0授权认证框架" class="headerlink" title="OAuth 2.0授权认证框架"></a>OAuth 2.0授权认证框架</h2><p>OAuth 2.0是一种开放标准的授权认证方案，允许第三方拿到用户信息，而无需向其提供用户名和密码。<br>参考：<a target="_blank" rel="noopener" href="https://datatracker.ietf.org/doc/html/rfc6749#page-58">rfc6749</a></p>
-<h3 id="主要角色"><a href="#主要角色" class="headerlink" title="主要角色"></a>主要角色</h3><p><img src="https://raw.githubusercontent.com/goodCircle/image/main/roles.jpg"></p>
+        <p>OAuth 2.0是一种开放标准的授权认证方案，允许第三方拿到用户信息，而无需向其提供用户名和密码。<br>参考：<a target="_blank" rel="noopener" href="https://datatracker.ietf.org/doc/html/rfc6749#page-58">rfc6749</a></p>
+<h2 id="主要角色"><a href="#主要角色" class="headerlink" title="主要角色"></a>主要角色</h2><p><img src="https://raw.githubusercontent.com/goodCircle/image/main/roles.jpg"></p>
 <p>资源拥有者（resource owner）：授权第三方使用资源的实体，通常指终端用户。<br>客户端（client）：通过资源拥有者的授权获取令牌，再使用该令牌向资源服务器请求资源。<br>授权服务器（authotization server）：确认用户授权后，向客户端发送令牌。<br>资源服务器（resource server）：持有资源，响应带有aceess token的资源请求.  </p>
-<h3 id="认证流程"><a href="#认证流程" class="headerlink" title="认证流程"></a>认证流程</h3><h3 id="四种授权方式"><a href="#四种授权方式" class="headerlink" title="四种授权方式"></a>四种授权方式</h3><h4 id="1-授权码模式"><a href="#1-授权码模式" class="headerlink" title="1. 授权码模式"></a>1. 授权码模式</h4><h4 id="2-简化模式"><a href="#2-简化模式" class="headerlink" title="2. 简化模式"></a>2. 简化模式</h4><h4 id="3-密码模式"><a href="#3-密码模式" class="headerlink" title="3. 密码模式"></a>3. 密码模式</h4><h4 id="4-客户端模式"><a href="#4-客户端模式" class="headerlink" title="4. 客户端模式"></a>4. 客户端模式</h4><h3 id="令牌更新"><a href="#令牌更新" class="headerlink" title="令牌更新"></a>令牌更新</h3>
+<h2 id="认证流程"><a href="#认证流程" class="headerlink" title="认证流程"></a>认证流程</h2><h2 id="四种授权方式"><a href="#四种授权方式" class="headerlink" title="四种授权方式"></a>四种授权方式</h2><h3 id="1-授权码模式"><a href="#1-授权码模式" class="headerlink" title="1. 授权码模式"></a>1. 授权码模式</h3><h3 id="2-简化模式"><a href="#2-简化模式" class="headerlink" title="2. 简化模式"></a>2. 简化模式</h3><h3 id="3-密码模式"><a href="#3-密码模式" class="headerlink" title="3. 密码模式"></a>3. 密码模式</h3><h3 id="4-客户端模式"><a href="#4-客户端模式" class="headerlink" title="4. 客户端模式"></a>4. 客户端模式</h3><h2 id="令牌更新"><a href="#令牌更新" class="headerlink" title="令牌更新"></a>令牌更新</h2>
       
     </div>
     
@@ -454,7 +454,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#OAuth-2-0%E6%8E%88%E6%9D%83%E8%AE%A4%E8%AF%81%E6%A1%86%E6%9E%B6"><span class="nav-number">1.</span> <span class="nav-text">OAuth 2.0授权认证框架</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BB%E8%A6%81%E8%A7%92%E8%89%B2"><span class="nav-number">1.1.</span> <span class="nav-text">主要角色</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%A4%E8%AF%81%E6%B5%81%E7%A8%8B"><span class="nav-number">1.2.</span> <span class="nav-text">认证流程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9B%9B%E7%A7%8D%E6%8E%88%E6%9D%83%E6%96%B9%E5%BC%8F"><span class="nav-number">1.3.</span> <span class="nav-text">四种授权方式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E6%8E%88%E6%9D%83%E7%A0%81%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.3.1.</span> <span class="nav-text">1. 授权码模式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E7%AE%80%E5%8C%96%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.3.2.</span> <span class="nav-text">2. 简化模式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E5%AF%86%E7%A0%81%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.3.3.</span> <span class="nav-text">3. 密码模式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.3.4.</span> <span class="nav-text">4. 客户端模式</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%A4%E7%89%8C%E6%9B%B4%E6%96%B0"><span class="nav-number">1.4.</span> <span class="nav-text">令牌更新</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E8%A6%81%E8%A7%92%E8%89%B2"><span class="nav-number">1.</span> <span class="nav-text">主要角色</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%A4%E8%AF%81%E6%B5%81%E7%A8%8B"><span class="nav-number">2.</span> <span class="nav-text">认证流程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E7%A7%8D%E6%8E%88%E6%9D%83%E6%96%B9%E5%BC%8F"><span class="nav-number">3.</span> <span class="nav-text">四种授权方式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%8E%88%E6%9D%83%E7%A0%81%E6%A8%A1%E5%BC%8F"><span class="nav-number">3.1.</span> <span class="nav-text">1. 授权码模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E7%AE%80%E5%8C%96%E6%A8%A1%E5%BC%8F"><span class="nav-number">3.2.</span> <span class="nav-text">2. 简化模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E5%AF%86%E7%A0%81%E6%A8%A1%E5%BC%8F"><span class="nav-number">3.3.</span> <span class="nav-text">3. 密码模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%A8%A1%E5%BC%8F"><span class="nav-number">3.4.</span> <span class="nav-text">4. 客户端模式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%A4%E7%89%8C%E6%9B%B4%E6%96%B0"><span class="nav-number">4.</span> <span class="nav-text">令牌更新</span></a></li></ol></div>
             
 
           </div>
