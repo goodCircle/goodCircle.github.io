@@ -88,10 +88,18 @@
 <meta property="og:site_name" content="自由之轻">
 <meta property="og:description" content="数字签名和证书的概念有很多细节难以理清，因此许多初学者为此感到头疼。推荐David Youd的一篇文章：What is a Digital Signature?   Bob有一个公钥和一个私钥。 公钥可以给很多人，私钥留给自己使用。在一对密钥中，既可以用公钥加密，私钥解密；也可以用私钥加密，公钥解密。   Susan用Bob给的公钥加密信息，Bob收到信息后用私钥解密。这样即使其他人截取到Susa">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.55.41.png">
+<meta property="og:image" content="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.55.46.png">
+<meta property="og:image" content="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.55.51.png">
+<meta property="og:image" content="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.56.02.png">
+<meta property="og:image" content="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.56.02.png">
+<meta property="og:image" content="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.56.08.png">
+<meta property="og:image" content="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.56.19.png">
 <meta property="article:published_time" content="2021-05-14T07:05:01.000Z">
-<meta property="article:modified_time" content="2021-05-20T10:24:58.115Z">
+<meta property="article:modified_time" content="2021-05-26T11:00:14.707Z">
 <meta property="article:author" content="goodCircle">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.55.41.png">
 
 
 
@@ -343,14 +351,14 @@
 
       
         <p>数字签名和证书的概念有很多细节难以理清，因此许多初学者为此感到头疼。推荐David Youd的一篇文章：<a target="_blank" rel="noopener" href="http://www.youdzone.com/signature.html">What is a Digital Signature?</a>  </p>
-<p>Bob有一个公钥和一个私钥。</p>
-<p>公钥可以给很多人，私钥留给自己使用。在一对密钥中，既可以用公钥加密，私钥解密；也可以用私钥加密，公钥解密。  </p>
-<p>Susan用Bob给的公钥加密信息，Bob收到信息后用私钥解密。这样即使其他人截取到Susan发送的信息，只要没有Bob的私钥，信息就无法被读取，毫无意义。 </p>
-<p>通过一些信息摘要算法和自己的私钥，Bob还可以生成一个数字签名，并放在信息中一同发送。数字签名的主要功能有两个：一是确认发送者的身份，二是确实信息内容没有被篡改。  </p>
-<p>首先，Bob使用信息摘要算法将信息转换为一个固定长度的哈希序列，称为“信息摘要”（想要通过信息摘要复原回原始信息几乎是不可能的）。  </p>
-<p>然后，Bob使用自己的私钥对这段信息摘要进行加密，得到的结果就是“数字签名”。  </p>
+<p><img src="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.55.41.png"><br>Bob有一个公钥和一个私钥。</p>
+<p><img src="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.55.46.png"><br>公钥可以给很多人，私钥留给自己使用。在一对密钥中，既可以用公钥加密，私钥解密；也可以用私钥加密，公钥解密。  </p>
+<p><img src="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.55.51.png"><br>Susan用Bob给的公钥加密信息，Bob收到信息后用私钥解密。这样即使其他人截取到Susan发送的信息，只要没有Bob的私钥，信息就无法被读取，毫无意义.  </p>
+<p><img src="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.56.02.png"><br>通过一些信息摘要算法和自己的私钥，Bob还可以生成一个数字签名，并放在信息中一同发送。数字签名的主要功能有两个：一是确认发送者的身份，二是确实信息内容没有被篡改。  </p>
+<p><img src="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.56.02.png"><br>首先，Bob使用信息摘要算法将信息转换为一个固定长度的哈希序列，称为“信息摘要”（想要通过信息摘要复原回原始信息几乎是不可能的）.  </p>
+<p><img src="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.56.08.png"><br>然后，Bob使用自己的私钥对这段信息摘要进行加密，得到的结果就是“数字签名”。  </p>
 <p>最后，Bob将携带有数字签名的信息发送给Pat。  </p>
-<p>Pat收到信息本身和数字签名之后如何验证呢？很简单，首先用和Bob约定好相同的信息摘要算法对信息进行hash，得到信息摘要A。再使用Bob提供的公钥对数字签名进行解密得到信息摘要B.如果信息摘要A=信息摘要B，则说名被签名的数据没有被篡改。</p>
+<p><img src="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.56.19.png"><br>Pat收到信息本身和数字签名之后如何验证呢？首先用和Bob约定好相同的信息摘要算法对信息进行hash，得到信息摘要A。再使用Bob提供的公钥对数字签名进行解密得到信息摘要B.如果信息摘要A=信息摘要B，则说名被签名的数据没有被篡改。</p>
 
       
     </div>
