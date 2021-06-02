@@ -92,11 +92,10 @@
 <meta property="og:image" content="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.55.46.png">
 <meta property="og:image" content="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.55.51.png">
 <meta property="og:image" content="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.56.02.png">
-<meta property="og:image" content="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.56.02.png">
 <meta property="og:image" content="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.56.08.png">
 <meta property="og:image" content="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.56.19.png">
 <meta property="article:published_time" content="2021-05-14T07:05:01.000Z">
-<meta property="article:modified_time" content="2021-06-02T08:23:15.447Z">
+<meta property="article:modified_time" content="2021-06-02T12:52:13.233Z">
 <meta property="article:author" content="goodCircle">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.55.41.png">
@@ -358,9 +357,9 @@
 </li>
 <li><p>Susan用Bob给的公钥加密信息，Bob收到信息后用私钥解密。这样即使其他人截取到Susan发送的信息，只要没有Bob的私钥，信息就无法被读取，毫无意义.<br><img src="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.55.51.png">  </p>
 </li>
-<li><p>通过一些信息摘要算法和自己的私钥，Bob还可以生成一个数字签名，并放在信息中一同发送。数字签名的主要功能有两个：一是确认发送者的身份，二是确实信息内容没有被篡改。<br><img src="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.56.02.png">  </p>
+<li><p>通过一些信息摘要算法和自己的私钥，Bob还可以生成一个数字签名，并放在信息中一同发送。数字签名的主要功能有两个：一是确认发送者的身份，二是确实信息内容没有被篡改。   </p>
 </li>
-<li><p>首先，Bob使用信息摘要算法将信息转换为一个固定长度的哈希序列，称为“信息摘要”（想要通过信息摘要复原回原始信息几乎是不可能的）.<br><img src="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.56.02.png"></p>
+<li><p>首先，Bob使用信息摘要算法将信息转换为一个固定长度的哈希序列，称为“信息摘要”（想要通过信息摘要复原回原始信息几乎是不可能的）。<br><img src="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.56.02.png"></p>
 </li>
 <li><p>然后，Bob使用自己的私钥对这段信息摘要进行加密，得到的结果就是“数字签名”。<br><img src="https://goodcircle-blog.oss-cn-beijing.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-05-26%2018.56.08.png"></p>
 </li>
