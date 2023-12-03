@@ -1,7 +1,7 @@
 site_name: good circle
 
 theme:
-  name: bootstrap4
+  name: material
 
 extra_css:
   - stylesheets/extra.css
