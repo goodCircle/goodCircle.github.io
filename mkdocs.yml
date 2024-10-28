@@ -5,8 +5,10 @@ site_author: jojo
 # 文章布局
 nav:
   - 主页: index.md
-  - 博客:
+  - 杂记:
       - 聪明是一种选择: blog/smart_is_a_choice.md
+  - 编程:
+      - 技术书籍推荐: cs/recommended-tech-books.md
 
 # 主题
 theme:
