@@ -1,4 +1,5 @@
 site_name: good circle
+site_url: http://goodcircle.top
 
 theme:
   name: mkdocs
