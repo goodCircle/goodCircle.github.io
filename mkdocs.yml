@@ -3,7 +3,7 @@ site_url: http://goodcircle.top
 site_author: jojo
 
 theme:
-  name: mkdocs
+  name: mkdocs-material
 
 nav:
   - 主页: index.md
