@@ -2,6 +2,13 @@ site_name: good circle
 site_url: http://goodcircle.top
 site_author: jojo
 
+# 文章布局
+nav:
+  - 主页: index.md
+  - 博客:
+      - 聪明是一种选择: blog/smart_is_a_choice.md
+
+# 主题
 theme:
   name: material
   palette:
@@ -31,7 +38,15 @@ theme:
     #- navigation.indexes   #启用节索引页后，可以将文档直接附加到节
     - search.share   #搜索分享按钮
 
-nav:
-  - 主页: index.md
-  - 博客:
-    - 聪明是一种选择: blog/smart_is_a_choice.md
+
+extra:
+  # tags:
+  #   HTML5: html
+  #   JavaScript: js
+  #   CSS: css
+  generator: true  # 是否显示“使用 MkDocs 材料制造”
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/goodCircle
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<dinghaoyuan07@gmail.com> #联系方式
