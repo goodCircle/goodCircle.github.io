@@ -1,4 +1,8 @@
 site_name: good circle
 
 theme:
-  name: material
+  name: mkdocs
+
+nav:
+  - 主页: index.md
+  - <标题>: <article>.md
