@@ -1,4 +1,4 @@
-# smart is a choice
+# 聪明是一种选择
 
 今天读了 Paul Graham
 的 [《Writes and Write-Nots》](https://paulgraham.com/writes.html?continueFlag=93ed27cd2cd725fa5a9c89ebaee07304)
