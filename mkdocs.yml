@@ -44,7 +44,7 @@ extra:
   #   HTML5: html
   #   JavaScript: js
   #   CSS: css
-  generator: true  # 是否显示“使用 MkDocs 材料制造”
+  generator: false  # 是否显示“使用 MkDocs 材料制造”
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/goodCircle
@@ -52,7 +52,7 @@ extra:
       link: mailto:<dinghaoyuan07@gmail.com> #联系方式
 
 
-# markdown 扩展语法
+# markdown 扩展语法，忽略即可
 markdown_extensions:
   - abbr
   - attr_list
