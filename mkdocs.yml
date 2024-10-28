@@ -1,9 +1,10 @@
 site_name: good circle
 site_url: http://goodcircle.top
+site_author: jojo
 
 theme:
   name: mkdocs
 
 nav:
   - 主页: index.md
-  - <标题>: <article>.md
+  - 关于: about.md
