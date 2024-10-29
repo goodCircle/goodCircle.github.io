@@ -41,6 +41,14 @@ theme:
     - search.share   #搜索分享按钮
 
 
+plugins:
+  #  - glightbox
+  - search
+  - offline
+  - tags:
+      tags_file: tags.md  #分类标签
+
+
 extra:
   # tags:
   #   HTML5: html
@@ -78,7 +86,7 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format # 代码块高亮插件
-  - pymdownx.arithmatex:  # latex支持
+  - pymdownx.arithmatex: # latex支持
       generic: true
   - toc:
       permalink: true # 固定标题位置为当前位置
@@ -94,5 +102,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - markdown.extensions.toc:
-      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+      slugify: !!python/object/apply:pymdownx.slugs.slugify { kwds: { case: lower } }
       permalink: "\ue157"
+
+
+copyright: Copyright &copy; 2023~2024 goodcircle/All Rights Reserved. # 版权声明
