@@ -45,8 +45,6 @@ plugins:
   #  - glightbox
   - search
   - offline
-  - tags:
-      tags_file: tags.md  #分类标签
 
 
 extra:
