@@ -1,6 +1,6 @@
 # Awesome Series
 
-github awesome 系列收录
+github awesome 系列项目收录
 
 ## Self Improvement
 
@@ -16,5 +16,6 @@ github awesome 系列收录
 - [awesome-java](https://github.com/akullpp/awesome-java)
 - [Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking)
 - [awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)
+- [awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
 
 
