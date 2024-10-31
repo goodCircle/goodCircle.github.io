@@ -10,6 +10,8 @@ nav:
       - awesome series: blog/awesome_series.md
   - 编程:
       - 技术书籍推荐: cs/recommended-tech-books.md
+  - 留言板:
+      - 留言板: leaveMessage/leave-a-message.md
 
 # 主题
 theme:
