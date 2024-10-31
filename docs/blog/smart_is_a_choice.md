@@ -1,3 +1,10 @@
+---
+title: 聪明是一种选择
+tags:
+  - writing
+  - AI
+---
+
 # 聪明是一种选择
 
 今天读了 Paul Graham
