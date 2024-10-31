@@ -1,3 +1,9 @@
+---
+title: Awesome Series
+tags:
+  - repo
+---
+
 # Awesome Series
 
 github awesome 系列项目收录

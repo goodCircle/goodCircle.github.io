@@ -60,6 +60,8 @@ plugins:
         - index.md
       enabled: true #是否启用
       strict: true
+  - tags:
+      tags_file: tag.md  #分类标签
 
 
 extra:
