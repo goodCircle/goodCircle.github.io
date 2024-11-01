@@ -71,7 +71,7 @@ extra:
   #   HTML5: html
   #   JavaScript: js
   #   CSS: css
-  generator: false  # 是否显示“使用 MkDocs 材料制造”
+  generator: true  # 是否显示“使用 MkDocs 材料制造”
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/goodCircle
