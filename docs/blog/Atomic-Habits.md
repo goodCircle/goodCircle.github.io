@@ -1,3 +1,9 @@
+---
+title: 《Atomic Habits》笔记
+tags:
+  - psychology
+---
+
 # 《Atomic Habits》笔记
 
 ## 前言
