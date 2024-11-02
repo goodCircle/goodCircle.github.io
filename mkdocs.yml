@@ -61,6 +61,7 @@ plugins:
       enable_creation_date: false #是否启用创建时间
       exclude: #排除的页面
         - index.md
+        - leaveMessage/leave-a-message.md
       enabled: true #是否启用
       strict: true
   - tags:
@@ -68,10 +69,10 @@ plugins:
 
 
 extra:
-  # tags:
-  #   HTML5: html
-  #   JavaScript: js
-  #   CSS: css
+  tags:
+    HTML5: html
+    JavaScript: js
+    CSS: css
   generator: true  # 是否显示“使用 MkDocs 材料制造”
   social:
     - icon: fontawesome/brands/github

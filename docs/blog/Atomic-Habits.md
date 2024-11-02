@@ -2,6 +2,7 @@
 title: 《Atomic Habits》笔记
 tags:
   - psychology
+comments: true  #默认不开启评论
 ---
 
 # 《Atomic Habits》笔记

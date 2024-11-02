@@ -1,7 +1,7 @@
 ---
 title: Awesome Series
 tags:
-  - repo
+  - resources
 ---
 
 # Awesome Series
