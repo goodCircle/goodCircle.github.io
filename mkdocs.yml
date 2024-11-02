@@ -19,7 +19,10 @@ nav:
 # 主题
 theme:
   name: material
-  custom_dir: docs/overrides  #主要是这一行
+  custom_dir: docs/overrides # 留言板
+  font:
+    text: Roboto Mono
+  logo: image/logo.jpeg
   palette:
     # Palette toggle for dark mode
     - scheme: slate
