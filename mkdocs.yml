@@ -22,7 +22,7 @@ theme:
   custom_dir: docs/overrides # 留言板
   font:
     text: Roboto Mono
-  logo: image/logo.png
+#  logo: image/logo.png
   palette:
     # Palette toggle for dark mode
     - scheme: slate
@@ -82,7 +82,6 @@ extra:
       link: https://github.com/goodCircle
     - icon: fontawesome/solid/paper-plane
       link: mailto:<dinghaoyuan07@gmail.com> #联系方式
-
 
 # markdown 扩展语法，忽略即可
 markdown_extensions:
