@@ -14,7 +14,7 @@ nav:
       - 技术书籍推荐: cs/recommended-tech-books.md
       - 《《Designing Data-Intensive Applications》笔记: cs/ddia-note.md
   - 留言板:
-      - 留言板: leaveMessage/leave-a-message.md
+      - 留言板: messageBoard/message-board.md
 
 # 主题
 theme:
@@ -61,7 +61,7 @@ plugins:
       enable_creation_date: false #是否启用创建时间
       exclude: #排除的页面
         - index.md
-        - leaveMessage/leave-a-message.md
+        - messageBoard/message-board.md
       enabled: true #是否启用
       strict: true
   - tags:
