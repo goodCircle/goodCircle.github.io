@@ -16,6 +16,23 @@
         crossorigin="anonymous"
         async>
 </script>
+<!--<div class="reward-container">-->
+<!--    <div></div>-->
+<!--    <button style="border-radius: 0.5rem;" onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">-->
+<!--        请作者喝杯咖啡-->
+<!--    </button>-->
+<!--    <div id="qr" style="display: none;">-->
+<!--        <div style="display: inline-block;">-->
+<!--            <img src="" alt="微信支付">-->
+<!--            <p>微信支付</p>-->
+<!--        </div>-->
+<!--        <div style="display: inline-block;">-->
+<!--            <img src="" alt="支付宝">-->
+<!--            <p>支付宝</p>-->
+<!--        </div>-->
+
+<!--    </div>-->
+<!--</div>-->
 <!-- Synchronize Giscus theme with palette -->
 <script>
     var giscus = document.querySelector("script[src*=giscus]")
@@ -32,9 +49,9 @@
     }
 
     // Register event handlers after documented loaded
-    document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function() {
         var ref = document.querySelector("[data-md-component=palette]")
-        ref.addEventListener("change", function () {
+        ref.addEventListener("change", function() {
             var palette = __md_get("__palette")
             if (palette && typeof palette.color === "object") {
                 var theme = palette.color.scheme === "slate"
@@ -44,7 +61,7 @@
                 // Instruct Giscus to change theme
                 var frame = document.querySelector(".giscus-frame")
                 frame.contentWindow.postMessage(
-                    {giscus: {setConfig: {theme}}},
+                    { giscus: { setConfig: { theme } } },
                     "https://giscus.app"
                 )
             }
