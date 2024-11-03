@@ -22,7 +22,7 @@ theme:
   custom_dir: docs/overrides # 留言板
   font:
     text: Roboto Mono
-#  logo: image/logo.png
+  logo: https://raw.githubusercontent.com/goodCircle/PicGo-repo/main/image/1831730654115_.pic.jpg
   palette:
     # Palette toggle for dark mode
     - scheme: slate
