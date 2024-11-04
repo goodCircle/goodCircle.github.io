@@ -56,8 +56,8 @@ plugins:
   - search
   - offline
   - git-revision-date-localized: # 添加文章修订时间戳
-      type: iso_datetime #时间类型
-#      timezone: Europe/Amsterdam #时区
+      type: iso_date #时间类型
+      timezone: UTC #时区
       locale: en #首选语言
       fallback_to_build_date: false #许回退到git 不可用时mkdocs build执行的时间
       enable_creation_date: false #是否启用创建时间
